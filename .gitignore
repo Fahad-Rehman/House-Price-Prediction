@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.csv
+*.json
+*.sqlite3
+*.db
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+*.env
+
+# Model files (large, can regenerate)
+*.h5
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CatBoost folder
+catboost_info/
